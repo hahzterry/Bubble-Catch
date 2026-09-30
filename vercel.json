@@ -1,0 +1,14 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "services": {
+    "controller": {
+      "root": "apps/controller",
+      "framework": "vite"
+    },
+    "host": {
+      "root": "apps/host",
+      "framework": "vite"
+    }
+  },
+  "rewrites": []
+}
